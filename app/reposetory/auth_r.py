@@ -1,13 +1,11 @@
-
 from datetime import datetime, timedelta
 from typing import Optional
 from jose import jwt
-
 from fastapi import Request, HTTPException
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-
-
 from app.config import SECRET_KEY, ALGORITM
+
+
 
 
 
