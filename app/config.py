@@ -5,6 +5,9 @@ from sqlmodel import SQLModel
 DB_CONFIG = f"postgresql+asyncpg://postgres:00@localhost:5432/test"
 
 #sdsdsdsds
+
+
+
 SECRET_KEY = "lemonsite12"
 ALGORITM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
