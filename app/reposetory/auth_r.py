@@ -43,7 +43,7 @@ class JWTRepo:
     def extract_token(token: str):
         return jwt.decode(token, SECRET_KEY, algorithms=[ALGORITM])
 
-
+#jwt
 class JWTBearer(HTTPBearer):
 
     def __init__(self, auto_error: bool = True):
